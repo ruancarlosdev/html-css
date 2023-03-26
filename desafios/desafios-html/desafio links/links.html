@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: aquamarine;
+            
+         
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        a {
+            
+            text-decoration: none;
+        }
+
+        
+        .especial {
+            background-color: rgb(179, 255, 170);
+        }
+        
+        a:visited {
+         color: rgba(10, 154, 89, 0.688);
+        }
+        a:hover {
+            color: red;
+        }
+        .especial::before {
+            content: '⇒';
+        }
+
+        
+        .especial::after {
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Meus links</h1>
+    <ul>
+        <li>
+            <p><a href="https://instagram.com/whinderssonnunes/" target="_blank">Acompanhe o lifestyle no meu instagram</a></p>
+        </li>
+        <li>
+            <p><a href="https://youtube.com/whinderssonnunes/" target="_blank" class="especial">Se divirta com vlogs no meu canal do Youtube</a></p>
+        </li>
+        <li>
+            <p><a href="https://gustavoguanabara.github.io" target="_blank">Repositório do curso</a></p>
+        </li>
+    </ul>
+</body>
+</html>
