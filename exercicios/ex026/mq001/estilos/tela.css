@@ -38,10 +38,3 @@ article {
     margin: auto;
 }
 
-article > h2 {
-    text-indent: 25px;
-}
-
-article p{
-    text-indent: 25px;
-}
